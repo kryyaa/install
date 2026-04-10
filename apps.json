@@ -16,5 +16,17 @@
     "bundle_id": "com.soundcloud.TouchApp",
     "version": "8.49.1",
     "plist_stem": "r3sc_release_signed"
+  },
+  {
+    "name": "Picsart",
+    "bundle_id": "com.picsart.studio",
+    "version": "29.6.4",
+    "plist_stem": "picsart_signed"
+  },
+  {
+    "name": "YouTube",
+    "bundle_id": "com.google.ios.youtube",
+    "version": "20.42.3",
+    "plist_stem": "youtube_signed"
   }
 ]
