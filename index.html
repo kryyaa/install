@@ -1,2 +1,103 @@
-<style>body{font-size: 30}</style>
-<a href="https://ggg.lll">скачать</a>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Установка</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #ffffff;
+      font-family: 'Nunito', sans-serif;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      padding: 40px 48px;
+      background: #f9f9ff;
+      border-radius: 32px;
+      max-width: 320px;
+      text-align: center;
+    }
+
+    .icon {
+      width: 72px;
+      height: 72px;
+      background: #eef0fb;
+      border-radius: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .icon svg {
+      width: 36px;
+      height: 36px;
+    }
+
+    .title {
+      font-size: 20px;
+      font-weight: 700;
+      color: #3d3d5c;
+      letter-spacing: 0.01em;
+    }
+
+    .desc {
+      font-size: 14px;
+      font-weight: 400;
+      color: #9090b0;
+      line-height: 1.6;
+    }
+
+    .btn {
+      font-family: 'Nunito', sans-serif;
+      font-weight: 600;
+      font-size: 15px;
+      letter-spacing: 0.08em;
+      color: #6b7aad;
+      background: #eef0fb;
+      border: none;
+      border-radius: 999px;
+      padding: 14px 40px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.1s;
+      display: inline-block;
+    }
+
+    .btn:hover { background: #e0e4f7; }
+    .btn:active { transform: scale(0.97); }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon">
+      <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="36" height="36" rx="10" fill="#eef0fb"/>
+        <path d="M18 8v14M12 16l6 7 6-7" stroke="#6b7aad" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M10 26h16" stroke="#6b7aad" stroke-width="2.2" stroke-linecap="round"/>
+      </svg>
+    </div>
+
+    <div class="title">Установить т6к т7к</div>
+
+    <div class="desc">
+      нажми на кнопку призвать сикссевен
+    </div>
+
+    <a class="btn" href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/kryyaa/install/refs/heads/main/r3tok_signed.plist">
+      призвать сикссевен
+    </a>
+  </div>
+</body>
+</html>
