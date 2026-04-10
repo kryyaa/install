@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Feather",
+    "bundle_id": "thewonderofyou.Feather",
+    "version": "2.7.0",
+    "plist_stem": "Feather_signed"
+  },
+  {
+    "name": "ESign",
+    "bundle_id": "p3.xyz.yyyue.esign",
+    "version": "5.0.2",
+    "plist_stem": "esign_5.0.2_unsigned_signed"
+  },
+  {
+    "name": "SoundCloud",
+    "bundle_id": "com.soundcloud.TouchApp",
+    "version": "8.49.1",
+    "plist_stem": "r3sc_release_signed"
+  }
+]
