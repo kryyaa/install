@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Каталог приложений</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{min-height:100vh;background:#fff;font-family:'Nunito',sans-serif;padding:48px 24px}
+    h1{text-align:center;font-size:22px;font-weight:700;color:#3d3d5c;margin-bottom:8px}
+    .sub{text-align:center;font-size:14px;color:#9090b0;margin-bottom:40px}
+    .grid{display:flex;flex-wrap:wrap;gap:20px;justify-content:center;max-width:900px;margin:0 auto}
+    .card{display:flex;flex-direction:column;align-items:center;gap:14px;padding:32px 36px;background:#f9f9ff;border-radius:28px;width:220px;text-align:center}
+    .icon{width:64px;height:64px;background:#eef0fb;border-radius:18px;display:flex;align-items:center;justify-content:center}
+    .icon svg{width:32px;height:32px}
+    .app-name{font-size:16px;font-weight:700;color:#3d3d5c}
+    .app-meta{font-size:12px;color:#9090b0;word-break:break-all}
+    .btn{font-family:'Nunito',sans-serif;font-weight:600;font-size:13px;letter-spacing:.08em;color:#6b7aad;background:#eef0fb;border:none;border-radius:999px;padding:11px 28px;text-decoration:none;display:inline-block;transition:background .2s,transform .1s}
+    .btn:hover{background:#e0e4f7}.btn:active{transform:scale(.97)}
+  </style>
+</head>
+<body>
+  <h1>Каталог приложений</h1>
+  <p class="sub">Нажмите «Установить» рядом с нужным приложением</p>
+  <div class="grid">
+    <div class="card">
+      <div class="icon">
+        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M18 8v14M12 16l6 7 6-7" stroke="#6b7aad" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M10 26h16" stroke="#6b7aad" stroke-width="2.2" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="app-name">Feather</div>
+      <div class="app-meta">thewonderofyou.Feather &middot; v2.7.0</div>
+      <a class="btn" href="itms-services://?action=download-manifest&amp;url=https://github.com/kryyaa/install/raw/refs/heads/main/Feather_signed.plist">УСТАНОВИТЬ</a>
+    </div>
+    <div class="card">
+      <div class="icon">
+        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M18 8v14M12 16l6 7 6-7" stroke="#6b7aad" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M10 26h16" stroke="#6b7aad" stroke-width="2.2" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="app-name">Ghostgram</div>
+      <div class="app-meta">org.ghostgram.app &middot; v12.5</div>
+      <a class="btn" href="itms-services://?action=download-manifest&amp;url=https://github.com/kryyaa/install/raw/refs/heads/main/ghostgram_signed.plist">УСТАНОВИТЬ</a>
+    </div>
+  </div>
+</body>
+</html>
